@@ -10,6 +10,10 @@ class CustomerType(models.Model):
         verbose_name = 'Tipo de cliente'
         verbose_name_plural = 'Tipos de clientes'
 
+    def __str__(self):
+        return str(self.name)
+
+
 class Customer(models.Model):
     id          = models.AutoField(primary_key=True, null=False, unique=True)
     name        = models.CharField(max_length=250, verbose_name='Nombre')
@@ -19,5 +23,8 @@ class Customer(models.Model):
     customertype= models.ForeignKey(CustomerType, on_delete=models.CASCADE, verbose_name='Tipo de cliente')
 
     class Meta:
-        verbose_name = 'Tipo de cliente'
-        verbose_name_plural = 'Tipos de cliente'
+        verbose_name = 'Cliente'
+        verbose_name_plural = 'Clientes'
+
+    def __str__(self):
+        return str(self.name)

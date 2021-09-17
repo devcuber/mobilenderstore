@@ -8,10 +8,12 @@ class Article(models.Model):
     code        = models.IntegerField(verbose_name='Código')
     price       = models.DecimalField(max_digits=6, decimal_places=2, verbose_name='Precio')
 
-
     class Meta:
         verbose_name = 'Articulo'
         verbose_name_plural = 'Articulos'
+
+    def __str__(self):
+        return str(self.name)
 
 class Supplier(models.Model):
     id          = models.AutoField(primary_key=True, null=False, unique=True)
@@ -22,3 +24,6 @@ class Supplier(models.Model):
     class Meta:
         verbose_name = 'Proveedor'
         verbose_name_plural = 'Proveedores'
+
+    def __str__(self):
+        return str(self.name)
