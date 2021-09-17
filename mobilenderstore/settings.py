@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-d=r4d!rhb$kd_djjs86qak#e8-jaxfdysc&gfp@md60dk$k-))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["mobilenderstore.herokuapp.com"]
 
 
 # Application definition
@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'mobilenderstore.wsgi.application'
 #     }
 # }
 
-#Personal Access Token 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
+#Personal Access Token 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
 
 DATABASES = {
    'default': {
