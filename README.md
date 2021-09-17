@@ -15,7 +15,7 @@ El api-rest se puede consumir desde el siguiente enlace:
 
 ## Diseño Base de datos
 
-![alt text](https://photos.google.com/share/AF1QipMNNgNKHdcT2cZmBqTbHFss9jMDG0W-7olgFNa3DYBfAiL6-ayGhFtt-EezjMUsxg/photo/AF1QipO84Y2d8M7I2VGddAUqpYm5zmfg6elTlMCsYlkJ?key=RWl2QWVRUERESlE1aUJPLXB3bXF6M09FR0RnV0NR)
+![base de datos](https://lh3.googleusercontent.com/pw/AM-JKLVXTcQsoZfXN5oHxDhUlmUKKhUPpbU_-QTacVVrB5vpuf2fnX918VgLvzwbR-B2lRJl0ST-r7o6PWmJni-MKGca2XCdcJTDFYcI2U8v_sgPOgeCCjEzuBCh_MR0WXt3XvM6X94H9QDDFimHRA8V1ve9nA=w960-h697-no?authuser=0.jpg)
 
 La tabla de OrderAdditionalData es útil para almacenar datos extra de las órdenes y que esta información puede ser diferente según el tipo de orden:
 
