@@ -85,6 +85,8 @@ WSGI_APPLICATION = 'mobilenderstore.wsgi.application'
 #     }
 # }
 
+#Personal Access Token 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
+
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql',

@@ -1,1 +1,1 @@
-web: gunicorn proyectobases.wsgi --log-file -
+web: gunicorn mobilenderstore.wsgi --log-file -
